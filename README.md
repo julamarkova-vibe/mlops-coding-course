@@ -7,9 +7,11 @@ This course is designed to dive deep into the intersection of software developme
 Whether you are a beginner eager to explore or an experienced professional seeking to enhance your skill set, this course offers valuable insights and hands-on experience.
 
 **Related Resources:**
+
 - **[MLOps Python Package (Example)](https://github.com/fmind/mlops-python-package)**: Kickstart your MLOps initiative with a flexible, robust, and productive Python package.
 - **[LLMOps Coding Package (Example)](https://github.com/callmesora/llmops-python-package/)**: Example with best practices and tools to support your LLMOps projects.
 - **[Cookiecutter MLOps Package (Template)](https://github.com/fmind/cookiecutter-mlops-package)**: Start building and deploying Python packages and Docker images for MLOps tasks.
+- **NEW: [Agent Skills](https://agentskills.io/home)**: Enhance your learning with the [MLOps Coding Skills](https://github.com/MLOps-Courses/mlops-coding-skills) repository. These "skills" are specialized instruction sets that you can add to your AI coding assistant to help it understand and execute the MLOps tasks in this course more effectively.
 
 ## Key Features
 
@@ -44,13 +46,13 @@ To start contributing , you will need to set up your development environment:
 uv run just install
 ```
 
-3. Serve the documentation locally (from that directory) to see course material in your browser:
+1. Serve the documentation locally (from that directory) to see course material in your browser:
 
 ```bash
 uv run just serve
 ```
 
-You can then access the course at this URL from your computer: http://localhost:8000/
+You can then access the course at this URL from your computer: <http://localhost:8000/>
 
 ## Contributions
 

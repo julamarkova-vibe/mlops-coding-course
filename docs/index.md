@@ -8,9 +8,10 @@
 
 Welcome to the MLOps Coding Course, where we bridge the gap between robust software engineering and cutting-edge data science. This course is tailored for developers and data scientists aiming to master the art of building, deploying, and maintaining production-grade AI/ML systems in Python. Through a hands-on, project-based approach, you will gain the practical skills needed to excel in a real-world MLOps environment.
 
-- **Donation Link**: [https://donate.stripe.com/4gw8xT9oVbCc98s7ss](https://donate.stripe.com/4gw8xT9oVbCc98s7ss){target="_blank"}
-- **GitHub Repository**: [https://github.com/MLOps-Courses/mlops-coding-course](https://github.com/MLOps-Courses/mlops-coding-course){target="_blank"}
-- **MLOps Coding Assistant**: [https://mlops-coding-assistant.fmind.dev/](https://mlops-coding-assistant.fmind.dev/){target="_blank"}
+- **Donation Link**: [https://donate.stripe.com/4gw8xT9oVbCc98s7ss](https://donate.stripe.com/4gw8xT9oVbCc98s7ss)
+- **GitHub Repository**: [https://github.com/MLOps-Courses/mlops-coding-course](https://github.com/MLOps-Courses/mlops-coding-course)
+- **MLOps Coding Assistant**: [https://mlops-coding-assistant.fmind.dev/](https://mlops-coding-assistant.fmind.dev/)
+- **[Agent Skills](https://agentskills.io/home)**: Enhance your learning with the [MLOps Coding Skills](https://github.com/MLOps-Courses/mlops-coding-skills) repository. These "skills" are specialized instruction sets that you can add to your AI coding assistant (like the one you are using now) to help it understand and execute the MLOps tasks in this course more effectively.
 
 <iframe class="youtube" width="560" height="315" src="https://www.youtube.com/embed/M0icwL3gjL8?si=TzN9Pt3hNgUP0KH5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
@@ -46,6 +47,6 @@ Learn to effectively share and distribute your MLOps projects. This chapter cove
 
 Gain deep insights into your deployed models and infrastructure. This chapter covers the critical aspects of observability, including reproducibility, monitoring, alerting, data lineage, cost management, model explainability, and infrastructure performance.
 
-## Let's journey together!
+## Let's journey together
 
 Embark on your journey to mastering MLOps. By completing this course, you will possess the skills and confidence to design, build, and manage complex machine learning systems professionally. Let’s begin!
