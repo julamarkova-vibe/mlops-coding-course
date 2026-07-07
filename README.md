@@ -18,7 +18,7 @@ Whether you are a beginner eager to explore or an experienced professional seeki
 - **Hands-on Python Coding**: Learn to code with Python in a way that's directly applicable to real-world AI projects.
 - **Project-Driven Learning**: Each chapter includes practical project instructions to help you apply what you've learned.
 - **MLOps Techniques**: Gain insights into effective MLOps coding strategies that streamline the development and deployment of AI/ML models.
-- **Open Source Tools**: Familiarize yourself with industry-standard tools like [uv](https://docs.astral.sh/uv/), [pytest](https://docs.pytest.org/en/latest/), [MLflow](https://mlflow.org/), [bandit](https://bandit.readthedocs.io/en/latest/), [pre-commit](https://pre-commit.com/), [GitHub](https://github.com/), and [VS Code](https://code.visualstudio.com/).
+- **Open Source Tools**: Familiarize yourself with industry-standard tools like [uv](https://docs.astral.sh/uv/), [Ruff](https://docs.astral.sh/ruff/), [ty](https://github.com/astral-sh/ty), [pytest](https://docs.pytest.org/en/latest/), [MLflow](https://mlflow.org/), [mise](https://mise.jdx.dev/), [lefthook](https://lefthook.dev/), [GitHub](https://github.com/), and [VS Code](https://code.visualstudio.com/).
 - **Mentoring sessions**: Boost your learning experience with personalized feedback and expert insights from the course authors.
   - Book [a one-on-one mentoring session](https://calendar.app.google/9KfEBkpCHQKwarLF8) to receive tailored guidance and support on the course.
   - Contact the [course creators](mailto:mlops-coding-course@fmind.dev) to request a personalized quote for group and organization training.
@@ -40,23 +40,23 @@ Whether you are a beginner eager to explore or an experienced professional seeki
 To start contributing , you will need to set up your development environment:
 
 1. Clone the repository.
-2. In the cloned repository directory, install dependencies using [uv](https://docs.astral.sh/uv/):
+2. In the cloned repository directory, install dependencies and git hooks with [mise](https://mise.jdx.dev/) (which drives [uv](https://docs.astral.sh/uv/)):
 
 ```bash
-uv run just install
+mise run install
 ```
 
 1. Serve the documentation locally (from that directory) to see course material in your browser:
 
 ```bash
-uv run just serve
+mise run serve
 ```
 
 You can then access the course at this URL from your computer: <http://localhost:8000/>
 
 ## Contributions
 
-This course is [open source under the CC-BY 4.0 license](https://github.com/MLOps-Courses/mlops-coding-course/blob/main/LICENSE.txt), and we welcome contributions! Whether it's improving the documentation, adding new examples, or fixing bugs, your input is valuable. Check out the `docs`  among other project files to see where you can contribute.
+This course is [open source under the CC-BY 4.0 license](https://github.com/MLOps-Courses/mlops-coding-course/blob/main/LICENSE.txt), and we welcome contributions! Whether it's improving the documentation, adding new examples, or fixing bugs, your input is valuable. Check out the `docs` among other project files to see where you can contribute.
 
 Feel free to [submit pull requests](https://github.com/MLOps-Courses/mlops-coding-course/pulls) or [open issues](https://github.com/MLOps-Courses/mlops-coding-course/issues) to discuss potential changes or additions to the course content.
 

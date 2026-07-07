@@ -1,5 +1,5 @@
 ---
-description: This chapter guides you through setting up a robust development environment for MLOps projects using Python. Learn how to manage Python versions, install dependencies with Poetry, and use Git and GitHub for version control and collaboration.
+description: This chapter guides you through setting up a robust development environment for MLOps projects using Python. Learn how to manage Python versions, install dependencies with uv, and use Git and GitHub for version control and collaboration.
 ---
 
 # 1. Initializing

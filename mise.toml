@@ -1,0 +1,70 @@
+# https://mise.jdx.dev
+# Canonical task vocabulary shared by git hooks (lefthook) and CI (GitHub Actions).
+
+[env]
+_.source = ".env"
+
+[settings.task]
+run_auto_install = false
+
+[tools]
+uv = "latest"
+dprint = "latest"
+gitleaks = "latest"
+lefthook = "latest"
+
+[tasks.install]
+alias = "i"
+description = "Install dependencies and git hooks"
+depends = ["install:hooks"]
+
+[tasks."install:python"]
+description = "Sync dependencies (uv)"
+run = "uv sync"
+
+[tasks."install:hooks"]
+description = "Install git hooks (lefthook)"
+depends = ["install:python"]
+run = "lefthook install"
+
+[tasks.format]
+alias = "f"
+description = "Format config and markup files (dprint)"
+run = "dprint fmt"
+
+[tasks.check]
+alias = "c"
+description = "Run all checks in parallel"
+depends = ["check:format", "check:build", "check:leaks"]
+
+[tasks."check:format"]
+description = "Check config/markup formatting (dprint)"
+run = "dprint check"
+
+[tasks."check:build"]
+description = "Build the site in strict mode to catch broken links and config"
+run = "uv run mkdocs build --strict"
+
+[tasks."check:leaks"]
+description = "Audit for leaked secrets (gitleaks)"
+run = 'gitleaks git --log-opts="--max-count=100" --verbose'
+
+[tasks.build]
+alias = "b"
+description = "Build the documentation site"
+run = "uv run mkdocs build"
+
+[tasks.serve]
+alias = "s"
+description = "Serve the documentation with live reload"
+run = "uv run mkdocs serve"
+
+[tasks.watch]
+alias = "w"
+description = "Serve the documentation with live reload"
+depends = ["serve"]
+
+[tasks.clean]
+alias = "n"
+description = "Remove the built site"
+run = "rm -rf site"

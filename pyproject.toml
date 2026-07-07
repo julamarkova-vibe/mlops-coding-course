@@ -5,23 +5,24 @@
 
 [project]
 name = "mlops-coding-course"
-version = "5.2.0"
+version = "6.0.0"
 description = "Learn how to create, develop, and maintain a state-of-the-art MLOps code base."
 authors = [{ name = "Médéric HURIER", email = "github@fmind.dev" }]
 readme = "README.md"
-requires-python = ">=3.13"
+requires-python = ">=3.14"
 license = { file = "LICENSE.txt" }
+keywords = ["mlops", "python", "course", "best-practices", "machine-learning"]
 dependencies = [
-    "mkdocs>=1.6.1",
-    "mkdocs-material>=9.6.7",
+  "mkdocs>=1.6.1",
+  "mkdocs-material>=9.7.6",
 ]
 
-# DEPENDENCIES
+# LINKS
 
-[dependency-groups]
-dev = [
-    "rust-just>=1.39.0",
-]
+[project.urls]
+Homepage = "https://mlops-coding-course.fmind.dev/"
+Documentation = "https://mlops-coding-course.fmind.dev/"
+Repository = "https://github.com/MLOps-Courses/mlops-coding-course"
 
 # TOOLS
 

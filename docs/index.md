@@ -37,7 +37,7 @@ Ensure the quality and reliability of your machine learning pipelines. This chap
 
 ## [Chapter 5: Refining](./5. Refining/)
 
-Take your MLOps projects to the next level. This chapter delves into advanced refinement techniques to improve efficiency, reliability, and scalability. We will explore design patterns, task automation, pre-commit hooks, and CI/CD workflows to streamline your development process.
+Take your MLOps projects to the next level. This chapter delves into advanced refinement techniques to improve efficiency, reliability, and scalability. We will explore design patterns, task automation, git hooks, and CI/CD workflows to streamline your development process.
 
 ## [Chapter 6: Sharing](./6. Sharing/)
 
